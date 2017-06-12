@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="news.ycombinator.hackernews.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorBgCol1Story"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtStoryTextSTT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="@null"
+                android:textColor="@color/colorStoryTextSTT"
+                android:textSize="@dimen/dimenStoryTextSizeSTT"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtStoryTextScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="@null"
+                android:textColor="@color/colorStoryTextScore"
+                android:textSize="@dimen/dimenStoryTextSizeScore" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:padding="@dimen/dimenStoryPaddingItem">
+
+            <TextView
+                android:id="@+id/txtStoryTextTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:text="@null"
+                android:textColor="@color/colorStoryTextTitle"
+                android:textSize="@dimen/dimenStoryTextSizeTitle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtStoryTextLinkWeb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:text="@null"
+                        android:textColor="@color/colorStoryTextLinkWeb"
+                        android:textSize="@dimen/dimenStoryTextSizeLinkWeb"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/txtStoryTextTimeAndAuthor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:text="@null"
+                        android:textColor="@color/colorStoryTextTimeAndAuthor"
+                        android:textSize="@dimen/dimenStoryTextSizeTimeAndAuthor"
+                        android:textStyle="normal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dimenStoryMarginLeftItem"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <IconTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/fa_comments"
+                        android:textColor="@color/colorStoryIconComment"
+                        android:textSize="@dimen/dimenStoryFontawesomeSizeComment" />
+
+                    <TextView
+                        android:id="@+id/txtStoryTextDescendants"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimenStoryMarginLeftDescendants"
+                        android:maxLines="1"
+                        android:text="@null"
+                        android:textColor="@color/colorStoryTextDescendants"
+                        android:textSize="@dimen/dimenStoryTextSizeDescendants" />
+
+                    <IconTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dimenStoryMarginLeftIconOpenLink"
+                        android:text="@string/fa_square"
+                        android:textColor="@color/colorStoryIconOpenLink"
+                        android:textSize="@dimen/dimenStoryFontawesomeSizeSquare" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

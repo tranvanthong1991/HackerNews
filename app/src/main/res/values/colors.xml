@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- === Text Size === -->
+    <!-- Story -->
+    <color name="colorStoryTextTitle">#000000</color>
+    <color name="colorStoryTextLinkWeb">#b1b1b1</color>
+    <color name="colorStoryTextTimeAndAuthor">#b1b1b1</color>
+
+    <color name="colorStoryTextSTT">#000000</color>
+    <color name="colorStoryTextScore">#b1b1b1</color>
+
+    <color name="colorStoryTextDescendants">#ffa500</color>
+
+    <!-- Story Detail -->
+    <color name="colorStoryDetailTextLinkWeb">#ff0000</color>
+    <color name="colorStoryDetailTextTitle">#000000</color>
+    <color name="colorStoryDetailTextDescendants">#000000</color>
+    <color name="colorStoryDetailTextTime">#000000</color>
+    <color name="colorStoryDetailTextAuthor">#fe7814</color>
+
+    <color name="colorStoryDetailCommentTextTime">#b1b1b1</color>
+    <color name="colorStoryDetailCommentTextAuthor">#ff690c</color>
+    <color name="colorStoryDetailCommentTextContent">#000000</color>
+
+
+    <!-- === BG === -->
+    <!-- Story -->
+    <color name="colorBgStory">#ffffff</color>
+    <color name="colorBgCol1Story">#ffe3ba</color>
+    <color name="colorBgDriveStory">#fcf2e7</color>
+
+    <!-- Story Detail -->
+    <color name="colorBgStoryDetailSession1">#fbb554</color>
+    <color name="colorBgStoryDetailSession2">#ffe3ba</color>
+    <color name="colorBgStoryDetailCommentItem">#ffffff</color>
+
+
+    <!-- === Fontawesome === -->
+    <!-- Story -->
+    <color name="colorStoryIconComment">#ffa500</color>
+    <color name="colorStoryIconOpenLink">#ffa500</color>
+
+</resources>
